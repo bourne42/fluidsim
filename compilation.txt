@@ -1,0 +1,12 @@
+This project was developed exclusively on Windows using Visual Studio 2010.
+The project should compile on other systems if the proper libraries are linked.
+You'll need SFML which has builds for OS X and Linux and the GL extension for
+TEXTURE_3D functions.
+
+To view the 3D velocity field rendering, you'll need to uncomment and comment
+the right lines in the FluidSim3D::draw function.
+
+To view the 2D simulation, comment out the #define FLUID3D in main.cpp
+
+In 3D, the simulation can be rotated with WASD and the velocity field can be
+zoomed in on with the mouse wheel.
